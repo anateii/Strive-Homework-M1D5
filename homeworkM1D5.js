@@ -56,7 +56,19 @@ console.log("\nThe total of the crazySum is: ", total)
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
 
-/* WRITE YOUR ANSWER HERE */
+printHeader ("EXERCISE 4")
+
+
+function boundary (n) {
+    if ( n<=100 && n>=20 || n===400) {
+            return true
+    }
+
+
+}
+
+let final = boundary(32)
+console.log (final)
 
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
