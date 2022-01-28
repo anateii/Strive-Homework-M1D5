@@ -26,7 +26,24 @@ console.log("\nThe area of the rectangle is: ", result)
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-/* WRITE YOUR ANSWER HERE */
+printHeader ("EXERCISE 2")
+
+
+function crazySum(int1, int2) {
+ if (int1===int2) {
+     console.log (resultOfTheSum*3)
+ }
+ else if (int1!==int2) {
+    let resultOfTheSum= int1+int2
+    return resultOfTheSum
+} 
+}
+
+let total = crazySum (34,36)
+console.log("\nThe total of the crazySum is: ", total)
+
+
+
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
