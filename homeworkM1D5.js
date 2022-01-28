@@ -50,7 +50,19 @@ console.log("\nThe total of the crazySum is: ", total)
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
-/* WRITE YOUR ANSWER HERE */
+printHeader ("EXERCISE 3")
+
+function crazyDiff (a)
+{
+    let b = 19
+    if (a>19) {
+        let absoluteDiff = Math.abs(a-b)
+        return (absoluteDiff*3)
+    }
+}
+
+let a = 23
+console.log ("\nThe final result is: ", crazyDiff(a))
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
