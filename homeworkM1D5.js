@@ -110,6 +110,24 @@ printHeader ("EXERCISE 5")
 */
 
 /* WRITE YOUR ANSWER HERE */
+ /* EXERCISE 6
+  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
+  HINT: Modulus Operator
+ */
+ 
+ 
+printHeader ("EXERCISE 6")
+ 
+const check3and7 = function (n) {
+    if (n >= 0 && (n % 3 === 0 || n % 7 === 0)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+ 
+  console.log(check3and7(15));
+  
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
