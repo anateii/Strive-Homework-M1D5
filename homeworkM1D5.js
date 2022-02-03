@@ -180,6 +180,21 @@ function upperFirst (any) {
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
+ /* EXERCISE 10
+  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
+ */
+ 
+printHeader ("EXERCISE 10")
+
+const giveMeRandom = function (n) {
+    const array = [];
+    for (let i = 0; i <= n; i++) {
+      array.push(Math.floor(Math.random() * 10));
+    }
+    return array;
+  };
+  console.log(giveMeRandom(7));
+
 
 /* WRITE YOUR ANSWER HERE */
 
